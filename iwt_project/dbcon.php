@@ -4,7 +4,7 @@ $server= 'localhost';
 $user = 'root';
 $password = '';
 $db = 'coronadb';
-$con= mysql_connect($server, $user, $password , $db);
+$con= mysqli_connect($server, $user, $password , $db);
 
 if($con)
 
