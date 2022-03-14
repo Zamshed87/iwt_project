@@ -25,19 +25,19 @@
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">about</a>
+        <a class="nav-link" href="#aboutid">about</a>
       </li>
  
       <li class="nav-item">
-        <a class="nav-link" href="#">symptomps</a>
+        <a class="nav-link" href="#sympid">symptomps</a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="#">prevention</a>
+        <a class="nav-link" href="#preventid">prevention</a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="#">contact</a>
+        <a class="nav-link" href="#contactid">contact</a>
       </li>
 
     </ul>
@@ -57,15 +57,15 @@
 
 <div class="row w-100 h-100">
     <div class="col-lg-5 col-md-5 col-12 order-lg-1 order-2">
-        <div class="leftside w-100 h-100 d-flex jusify-content-around align-items-center ml-5">
+        <div class="leftside w-100 h-100 d-flex jusify-content-center align-items-center ml-5">
             <img src="images/eksath.png" alt="" width="300" height="300">
         </div>
     </div>
 
 
     <div class="col-lg-7 col-md-7 col-12 order-lg-2 order-1">
-        <div class="rightside w-100 h-100 d-flex jusify-content-around align-items-center">
-            <h1>Let's Stay Safe from cor<span class="corona_rot"> <img src="images/corona1.jpg" alt="" width="75" height="75"> </span>na</h1>
+        <div class="rightside w-100 h-100 d-flex jusify-content-center align-items-center">
+            <h1>Let's Stay Safe from cor<span class="corona_rot"><img src="images/corona1.jpg" alt="" width="75" height="75"></span>na</h1>
         </div>
     </div>
   
@@ -77,22 +77,24 @@
 
 
 
-
-
-
-
-
-
-
-
-/*
-
 <!-- corona latest update -->
+<div class="container">
+      <h2>COVID -19 Cases in <span id="country"></span> <img src="" id="flag"></h2>
+      <div class="board">
+        <div class="card a"><i class="fa fa-tachometer"></i><h5>Active Cases-22,315</h5><span id="active"></span></div>
+        <div class="card ca"><i class="fa fa-th-list"></i><h5>Total Cases-1,20,000</h5><span id="cases"></span></div>
+        <div class="card cr"><i class="fa fa-times-circle"></i><h5>Critical Cases-1,010</h5><span id="critical"></span></div>
+        <div class="card d"><i class="fa fa-times"></i><h5>Total Deaths-607</h5><span id="death"></span></div>
+        <div class="card r"><i class="fa fa-check-square-o"></i><h5>Recovered Cases-52,065</h5><span id="recovered"></span></div>
+        <div class="card t"><i class="fa fa-eye"></i><h5>Total Testes Done-1,50,500</h5><span id="tests"></span></div>
+      </div>
+
+
 
 <section class="corona_update">
     <div class="mt-5">
 
-   <h3 class="text-uppercase text-center">Covid-19 update Bangladesh</h3>
+   <h3 class="text-uppercase text-center mt-5 mb-5">Covid-19 update today  BD</h3>
 
     </div>
 
@@ -146,11 +148,11 @@
    </h2>
 
   <p>
-  Coronaviruses are a group of related viruses that cause diseases in mammals and birds. In humans, coronaviruses cause respiratory tract infections that can range from mild to lethal.
+    Coronaviruses are a group of related viruses that cause diseases in mammals and birds. In humans, coronaviruses cause respiratory tract infections that can range from mild to lethal.
   </p>
 
 <p>
-Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) is a novel severe acute respiratory syndrome coronavirus. It was first isolated from three people with pneumonia connected to the cluster of acute respiratory illness cases in Wuhan. All structural features of the novel SARS-CoV-2 virus particle occur in related coronaviruses in nature.
+                     Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) is a novel severe acute respiratory syndrome coronavirus. It was first isolated from three people with pneumonia connected to the cluster of acute respiratory illness cases in Wuhan. All structural features of the novel SARS-CoV-2 virus particle occur in related coronaviruses in nature.
 </p>
 </div>
 
@@ -165,14 +167,14 @@ Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) is a novel severe a
 
 <!-- corona virus symptoms -->
 
-<div class="container-fluid  pt-5 pb-5" id="aboutid">
+<div class="container-fluid  pt-5 pb-5" id="sympid">
 <div class="section_header text-center mb-5 mt-4">
 
 <h1> Corona Virus Symptoms </h1>
   
 </div>
 
-<div class="container">
+<div class="container2">
 <div class="row">
  <div class="col-lg-4 col-md-4 col-12 mt-5">
   <figure class="text-center">
@@ -234,14 +236,14 @@ Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) is a novel severe a
 
  <!-- prevention against corona virus -->
 
- <div class="container-fluid sub_section pt-5 pb-5" id="aboutid">
+ <div class="container-fluid sub_section pt-5 pb-5" id="preventid">
 <div class="section_header text-center mb-5 mt-4">
 
 <h1> 6 steps prevention against corona </h1>
   
 </div>
 
-<div class="container">
+<div class="container2">
 <div class="row">
  <div class="col-lg-4 col-md-4 col-12 mt-5">
  <div class="row">
@@ -339,7 +341,7 @@ Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) is a novel severe a
 
  <!-- contact us asap  -->
 
- <div class="container-fluid sub_section pt-5 pb-5" id="aboutid">
+ <div class="container-fluid  pt-5 pb-5" id="contactid">
 <div class="section_header text-center mb-5 mt-4">
 
 <h1> You can contact with us </h1>
@@ -349,7 +351,7 @@ Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) is a novel severe a
 <div class="container">
 <div class="row">
   <div class="col-lg-8 offset-lg-12 col-12">
-  <form>
+  <form action="" method="POST">
 
 
   <div class="form-group">
@@ -369,7 +371,7 @@ Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) is a novel severe a
     <input type="number" class="form-control" name="mobile" placeholder="mobile" required autocomplete="off">
   </div>
 
-  <button type="submit" class="btn btn-primary">Sign in</button>
+  <button type="submit" class="btn btn-primary" name="submit">Sign in</button>
 </form>                                                                          
 
   </div>
@@ -383,14 +385,13 @@ Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) is a novel severe a
 
 
 <!-- top cursor -->
- <div class="container scrolltop float-right pr-5">
+ <div class="container2 scrolltop float-right pr-5">
 
   <i class="fa fa-arrow-up" onclick="topFunction() id="myBtn"></i>
 
  </div>
 
 <!-- footer tag -->
-
 <footer class="mt-1">
    <div class="footer_style text-white text-center  container-fluid">
 
@@ -418,12 +419,51 @@ fetch('https://corona.lmao.ninja/v2/countries/Bangladesh')
 .then((data) => {
   console.log(data);
   document.getElementById("country").innerHTML = data.country;
-  document.getElementById("active").innerHTML = data.active.toLocaleString();
-  document.getElementById("cases").innerHTML = data.cases.toLocaleString();
-  document.getElementById("critical").innerHTML = data.critical.toLocaleString();
-  document.getElementById("death").innerHTML = data.deaths.toLocaleString();
-  document.getElementById("recovered").innerHTML = data.recovered.toLocaleString();
-  document.getElementById("tests").innerHTML = data.tests.toLocaleString();
+
   document.getElementById("flag").src = data.countryInfo.flag;
 });
 </script>
+
+
+
+
+
+<?php
+
+include 'dbcon.php';
+
+if(isset($_POST['submit']))
+
+{
+ $username = $_POST['username'];
+ $email = $_POST['email'];
+ $mobile = $_POST['mobile'];
+
+
+
+$insertquery = " insert into coronacase(username,email,mobile) values('$username','$email','$mobile') ";
+$query = mysqli_query($con, $insertquery);
+
+
+if($con)
+
+{
+    ?>
+    <script> alert("inserted properly"); </script>
+    <?php  
+
+}
+
+else{
+    ?>
+    <script>
+        alert("Not inserted ");
+    </script>
+
+    <?php
+}
+
+
+
+}
+?>
